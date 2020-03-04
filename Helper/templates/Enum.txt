@@ -1,0 +1,8 @@
+UENUM(BlueprintType)
+enum class Eenum_name : uint8
+{
+    Eenum_acronym_Default UMETA(DisplayName = "DefaultMAX")
+};
+
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enum")
+Eenum_name enum_name;

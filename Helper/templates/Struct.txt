@@ -1,0 +1,26 @@
+//USTRUCT(BlueprintType)
+USTRUCT()
+struct Fstruct_name
+{
+    GENERATED_BODY()
+
+    //UPROPERTY(BlueprintReadOnly)
+    UPROPERTY()
+    int32 SampleInt
+
+    Fstruct_name()
+    {
+        SampleInt = 0;
+    }
+
+    void SetInt(const int32 Value)
+    {
+        SampleInt = Value;
+    }
+
+    int32 GetInt()
+    {
+        return SampleInt
+    }
+    
+}
